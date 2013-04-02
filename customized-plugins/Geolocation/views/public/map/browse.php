@@ -1,6 +1,7 @@
 <?php head(array('title' => 'Browse Map','bodyid'=>'map','bodyclass' => 'browse')); ?>
 
 <div id="primary-map">
+<!-- Renamed from div id="primary" -->
 
 <h1>Browse Casualty Map (<?php echo $totalItems; ?> total)</h1>
 
@@ -23,5 +24,7 @@
 </div><!-- end link_block -->
 
 </div><!-- end primary -->
+
+<!-- div id="secondary" has been removed -->
 
 <?php foot(); ?>
