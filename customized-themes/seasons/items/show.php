@@ -18,6 +18,19 @@
 
 <aside id="sidebar">
 
+   <!-- Add ShareThis Social Bookmarking Code (Added by Colleen) -->
+   <div>
+      <h2>Be Social & Share</h2>
+      <p>
+      <span class='st_facebook_large' displayText='Facebook'></span>
+      <span class='st_twitter_large' displayText='Tweet'></span>
+      <span class='st_googleplus_large' displayText='Google +'></span>
+      <span class='st_evernote_large' displayText='Evernote'></span>
+      <span class='st_email_large' displayText='Email'></span>
+      <span class='st_sharethis_large' displayText='ShareThis'></span>
+      </p>
+   </div>
+
     <!-- The following returns all of the files associated with an item. -->
     <?php if ((get_theme_option('Item FileGallery') == 1) && metadata('item', 'has files')): ?>
     <div id="itemfiles" class="element">

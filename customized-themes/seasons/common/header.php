@@ -45,8 +45,12 @@
 
   ga('create', 'UA-3644638-18', 'ocfallenheroes.org');
   ga('send', 'pageview');
-
 </script>
+
+<!-- ShareThis Tracking -->
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "5fc2bea4-d5b7-4e6d-9cfa-0c11c29209ba", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 </head>
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
