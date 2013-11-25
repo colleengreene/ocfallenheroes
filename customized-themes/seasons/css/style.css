@@ -386,7 +386,7 @@
     left: 90%;
     font-weight: bold;
     line-height: 30px;
-    background-color: #4b6569;
+    background-color: #244375 /*changed by Colleen*/ ;
     *zoom: 1;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -1374,14 +1374,14 @@
   /* @end */
   /* @group ---------- Winter Styles ---------- */
   .winter body {
-    background-color: #2f3e4a;
+    background-color: #ffffff /*changed by Colleen*/ ;
     color: #5a5a5a;
   }
   .winter h1, .winter #site-title a {
     color: #859ca2;
   }
   .winter input[type=submit], .winter button, .winter .button, .winter #advanced-search {
-    background-color: #4b6569;
+    background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter input[type=text], .winter input[type=password], .winter textarea {
     background-color: #dfe2e2;
@@ -1390,7 +1390,7 @@
     color: #56acba;
   }
   .winter a:visited {
-    color: #98c4c9;
+    color: #000918 /*changed by Colleen*/ ;
   }
   .winter a:hover, .winter a:active {
     color: #3acacc;
@@ -1399,7 +1399,7 @@
     background-color: #fff;
   }
   .winter nav.top {
-    background-color: #56acba;
+    background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter nav.top li:hover a {
     color: #fff;
@@ -1411,7 +1411,7 @@
     color: #fff;
   }
   .winter nav.top ul li ul {
-    background-color: #56acba;
+    background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter nav.top ul li ul li > a:link, .winter nav.top ul li ul li > a:visited, .winter nav.top ul li ul li > a:active, .winter nav.top ul li ul li > a:hover {
     color: #fff;
@@ -1425,14 +1425,14 @@
   .winter .secondary-nav .current a,
   .winter .secondary-nav a.current,
   .winter .exhibit-section-nav .current a {
-    background-color: #98c4c9;
+    background-color: #000918 /*changed by Colleen*/ ;
   }
   .winter #home #content > div {
-    border-color: #4b6569;
+    border-color: #244375 /*changed by Colleen*/ ;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #4b6569;
+    *border-top-color: #244375 /*changed by Colleen*/ ;
   }
   .winter #content h1 {
     color: #fff;
@@ -1445,17 +1445,17 @@
   }
   .winter #content > div, .winter #content #primary > div, .winter #content #sidebar > div,
   .winter #content #advanced-search-form > div, .winter #content #exhibit-pages {
-    border-color: #4b6569;
+    border-color: #244375 /*changed by Colleen*/ ;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #4b6569;
+    *border-top-color: #244375 /*changed by Colleen*/ ;
   }
   .winter #content #primary > div, .winter #content #sidebar > div {
     background-color: #fff;
   }
   .winter #content .pagination_previous a, .winter #content .pagination_next a {
-    background-color: #56acba;
+    background-color: #244375 /*changed by Colleen */ ;
   }
   .winter #content .pagination a:link, .winter #content .pagination a:visited {
     color: #def9ff;
@@ -1467,7 +1467,7 @@
     border-color: #dfe2e2;
   }
   .winter #content nav .pagination_list {
-    background-color: #56acba;
+    background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter #content .items-nav a:link, .winter #content .items-nav a:visited, .winter #content .secondary-nav a:link, .winter #content .secondary-nav a:visited, .winter #content #secondary-nav a:link, .winter #content #secondary-nav a:visited, .winter #content #outputs a:link, .winter #content #outputs a:visited, .winter #content #exhibit-child-pages a:link, .winter #content #exhibit-child-pages a:visited {
     color: #def9ff;
@@ -1486,26 +1486,26 @@
     box-shadow: transparent 0 0 0;
   }
   .winter #search-results th {
-    background-color: #4b6569;
+    background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter #search-filters li, .winter #item-filters li {
     background-color: #def9ff;
   }
   .winter .page #content {
-    border-color: #4b6569;
+    border-color: #244375 /*changed by Colleen*/ ;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #4b6569;
+    *border-top-color: #244375 /*changed by Colleen*/ ;
   }
   .winter footer {
-    background-color: #2f3e4a;
+    background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter footer p {
     color: #fff;
   }
   .winter .exhibit-page-nav {
-    background-color: #4b6569;
+    background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter .exhibit-page-nav .current, .winter .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
