@@ -1387,13 +1387,14 @@
     background-color: #dfe2e2;
   }
   .winter a:link {
-    color: #56acba;
+    color: #0000ff /*changed by Colleen*/ ;
+    text-decoration: underline /*added by Colleen*/ ;
   }
   .winter a:visited {
-    color: #000918 /*changed by Colleen*/ ;
+    color: #800080 /*changed by Colleen*/ ;
   }
   .winter a:hover, .winter a:active {
-    color: #3acacc;
+    color: #ff0000 /*changed by Colleen*/ ;
   }
   .winter header {
     background-color: #fff;
@@ -1402,13 +1403,15 @@
     background-color: #244375 /*changed by Colleen*/ ;
   }
   .winter nav.top li:hover a {
-    color: #fff;
+    color: #ffffff;
+    background-color: #ff0000 /*changed by Colleen*/ ;
   }
   .winter nav.top a:link, .winter nav.top a:visited {
-    color: #def9ff;
+    color: #cccccc /*changed by Colleen*/ ;
+    text-decoration: none /*added by Colleen */ ; 
   }
   .winter nav.top a:active, .winter nav.top a:hover {
-    color: #fff;
+    color: #cccccc /*changed by Colleen*/ ;
   }
   .winter nav.top ul li ul {
     background-color: #244375 /*changed by Colleen*/ ;
@@ -1499,10 +1502,10 @@
     *border-top-color: #244375 /*changed by Colleen*/ ;
   }
   .winter footer {
-    background-color: #244375 /*changed by Colleen*/ ;
+    background-color: #ffffff /*changed by Colleen*/ ;
   }
   .winter footer p {
-    color: #fff;
+    color: #244375 /*changed by Colleen*/ ;
   }
   .winter .exhibit-page-nav {
     background-color: #244375 /*changed by Colleen*/ ;
