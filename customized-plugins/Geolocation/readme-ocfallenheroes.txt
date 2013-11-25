@@ -1,4 +1,4 @@
-Customizations made to www.ocfallenheroes.com
+Customizations made to http://www.ocfallenheroes.com
 
 In response to this Omeka support forum issue: http://omeka.org/forums/topic/geolocation-browsing-window-size
 
