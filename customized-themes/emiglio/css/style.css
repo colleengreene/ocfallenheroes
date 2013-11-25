@@ -206,6 +206,10 @@
         .item-pagination a {text-decoration:none;display:block; float:left; width: 400px;}
 
     .item-file {font-size:1.2em; line-height:1.5em; margin-bottom:1.5em;}
+    
+    .item-geolocation {margin-bottom:1.5em;}
+    
+    .item-image {margin-bottom:1.5em;}
 
     .no-results {margin:10px;}
     #advanced_search_header {font-size:1.4em;}
