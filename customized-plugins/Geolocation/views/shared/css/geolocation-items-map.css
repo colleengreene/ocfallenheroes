@@ -64,9 +64,9 @@ div.map-notification {
 
     #link_block {
         box-sizing: border-box !important;
-        height: 436px;
+        height: 836px;
         width: 30%;
-        background-color: #4B4B4B !important;
+        background-color: #000918 !important;
         float: left;
         color: white;
         overflow-y: auto;
