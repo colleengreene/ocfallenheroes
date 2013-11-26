@@ -2467,3 +2467,17 @@
     font-style: italic;
   }
 }
+
+
+ /* @group ---------- Neatline Time ---------- */
+ /* ***Increases height and rows of Show Timeline view. Added by Colleen*** */
+.neatlinetime-timeline {
+    overflow:hidden !important;
+    padding: 0 !important;
+    box-sizing: content-box !important;
+}
+
+.neatlinetime-timeline div {
+    padding: 0 !important;
+    box-sizing: content-box !important;
+}
