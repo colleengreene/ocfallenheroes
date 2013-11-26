@@ -1422,6 +1422,15 @@
   .winter #intro {
     color: #fff;
   }
+
+   p.light-text {
+     color: #ffffff /*added by Colleen*/ ;
+  }
+  .note {
+	font-style: italic /*added by Colleen*/ ;
+  }
+
+
   .winter #content,
   .winter #secondary-nav .current a,
   .winter #secondary-nav a.current,

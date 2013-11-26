@@ -5,7 +5,7 @@
 </aside>
 
 <?php if (get_theme_option('Homepage Text')): ?>
-<p><?php echo get_theme_option('Homepage Text'); ?></p>
+<p class="light-text"><span class="note"><?php echo get_theme_option('Homepage Text'); ?></span></p>
 <?php endif; ?>
 
 <?php if (get_theme_option('Display Featured Item') !== '0'): ?>
