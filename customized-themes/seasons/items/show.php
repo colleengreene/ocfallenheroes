@@ -1,3 +1,8 @@
+<?php 
+queue_js_file('lightbox-2.6.min', 'javascripts/vendor');
+queue_css_file('lightbox');
+?>
+
 <?php echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'bodyclass' => 'items show')); ?>
 
 <h1><?php echo metadata('item', array('Dublin Core', 'Title')); ?></h1>
@@ -34,7 +39,7 @@
     <?php if ((get_theme_option('Item FileGallery') == 1) && metadata('item', 'has files')): ?>
     <div id="itemfiles" class="element">
         <h2><?php echo __('Associated Photos'); ?></h2>
-        <?php echo item_image_gallery(); ?>
+        <div class="element-text"><?php echo item_image_gallery(array('link'=>array('data-lightbox'=>'lightbox'))); ?></div>
     </div>
     <?php endif; ?>
 
