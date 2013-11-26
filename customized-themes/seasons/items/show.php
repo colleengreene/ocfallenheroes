@@ -40,7 +40,7 @@ queue_css_file('lightbox');
     <div id="itemfiles" class="element">
         <h2><?php echo __('Associated Photos'); ?></h2>
         <div class="element-text"><?php echo item_image_gallery(array('link'=>array('data-lightbox'=>'lightbox'))); ?></div>
-        <p>Click on a thumbnail to see the full view.</p>
+        <p>Click on a thumbnail for full size image.</p>
     </div>
     <?php endif; ?>
 
