@@ -5,7 +5,7 @@ queue_js_file('map');
 
 $css = "
             #map_browse {
-                height: 436px;
+                height: 836px;
             }
             .balloon {width:400px !important; font-size:1.2em;}
             .balloon .title {font-weight:bold;margin-bottom:1.5em;}
