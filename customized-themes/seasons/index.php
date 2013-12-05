@@ -14,7 +14,7 @@
 		<p><?php echo '<strong>Total Casualties Posted:</strong>&nbsp;'. total_records('Item') .'.'; ?></p>
 		<p><strong>Wars Completed:</strong> <a href="/collections/show/1" title="Spanish-American War">Spanish-American War</a>, <a href="/collections/show/2" title="First World War">First World War</a>, 
 		<a href="/collections/show/7" title="Persian Gulf War">Persian Gulf War</a>, <a href="/collections/show/8" title="Somalia Intervention">Somalia Intervention</a>.</p>
-		<p>Names and biographical details are slowly being added in my spare time. Approximately 1,000 individuals have been identified so far. Please check back frequently for new additions.</p>	
+		<p>Names and biographical details are slowly being added in my spare time. Approximately 1,000 individuals have been identified so far. Please check back frequently for new additions and fuller biographies.</p>	
 	</div>
 <!-- End Added by Colleen -->
 
