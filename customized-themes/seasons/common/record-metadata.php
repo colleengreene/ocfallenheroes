@@ -1,6 +1,6 @@
 <?php foreach ($elementsForDisplay as $setName => $setElements): ?>
 <div class="element-set">
-    <h2><?php echo html_escape(__($setName)); ?></h2>
+    <!--<h2><?php echo html_escape(__($setName)); ?></h2>-->
     <?php foreach ($setElements as $elementName => $elementInfo): ?>
     <div id="<?php echo text_to_id(html_escape("$setName $elementName")); ?>" class="element">
         <h3><?php echo html_escape(__($elementName)); ?></h3>
