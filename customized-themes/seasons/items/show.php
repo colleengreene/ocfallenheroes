@@ -39,7 +39,18 @@ queue_css_file('lightbox');
     <?php if ((get_theme_option('Item FileGallery') == 1) && metadata('item', 'has files')): ?>
     <div id="itemfiles" class="element">
         <h2><?php echo __('Associated Photos'); ?></h2>
-        <div class="element-text"><?php echo item_image_gallery(array('link'=>array('data-lightbox'=>'lightbox'))); ?></div>
+        <div class="element-text">
+		<!--displays larger image sizes than thumbnails (Added by Colleen)--> 
+		<?php
+		$itemFiles = $item->Files;
+		//display the first one fullsize
+		echo file_markup($itemFiles[0], array('imageSize'=>'fullsize'));
+		//get rid of the first one
+		unset($itemFiles[0]);
+		//display the rest as usual
+		echo file_markup($itemFiles);
+		?>
+	  </div>
         <p>Click on a thumbnail for full size image.</p>
     </div>
     <?php endif; ?>
