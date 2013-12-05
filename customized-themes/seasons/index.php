@@ -8,6 +8,15 @@
 <p class="light-text"><span class="note"><?php echo get_theme_option('Homepage Text'); ?></span></p>
 <?php endif; ?>
 
+<!-- Added by Colleen -->
+	<div>
+		<h2>Project Status</h2>
+		<p><?php echo '<strong>Total Casualties Posted:</strong>&nbsp;'. total_records('Item') .'.'; ?></p>
+		<p><strong>Wars Completed:</strong> <a href="/collections/show/1" title="Spanish-American War">Spanish-American War</a>, <a href="/collections/show/2" title="First World War">First World War</a>, 
+		<a href="/collections/show/7" title="Persian Gulf War">Persian Gulf War</a>, <a href="/collections/show/8" title="Somalia Intervention">Somalia Intervention</a>.</p>
+	</div>
+<!-- End Added by Colleen -->
+
 <?php if (get_theme_option('Display Featured Item') !== '0'): ?>
 <!-- Featured Item -->
 <div id="featured-item">
