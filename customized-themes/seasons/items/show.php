@@ -45,7 +45,7 @@ queue_css_file('lightbox');
 
    <!-- Add ShareThis Social Bookmarking Code (Added by Colleen) -->
    <div>
-      <h2>Be Social & Share</h2>
+      <h2>Share This Profile</h2>
       <p>
       <span class='st_facebook_large' displayText='Facebook'></span>
       <span class='st_twitter_large' displayText='Tweet'></span>
